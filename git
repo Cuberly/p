@@ -1,1 +1,4 @@
-апртвпр
+git add .
+git commit -m "Название"
+git push
+
