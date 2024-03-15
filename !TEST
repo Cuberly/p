@@ -1,16 +1,1 @@
-Test File
-Андрей!!!
-Что в первом?!
-Весёлый мессенджер
-public float getMovementSpeed() {
-        float movementSpeed = Mth.m_14036_(convertToLinear(this.getSpeed()), -0.49F, 0.49F);
-        if (this.m_58904_().f_46443_) {
-            movementSpeed *= ServerSpeedProvider.get();
-        }
-
-        Direction facing = (Direction)this.m_58900_().m_61143_(FACING);
-        int movementModifier = facing.m_122421_().m_122540_() * (facing.m_122434_() == Axis.Z ? -1 : 1);
-        movementSpeed = movementSpeed * (float)(-movementModifier) + this.clientOffsetDiff * 0.5F;
-        movementSpeed = Mth.m_14036_(movementSpeed, 0.0F - this.offset, (float)this.extensionLength - this.offset);
-        return movementSpeed;
-    }
+a = open("html.txt", "r+", encoding='utf-8').readlines()
