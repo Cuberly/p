@@ -2,3 +2,5 @@ a = open("html.txt", "r+", encoding='utf-8').readlines()
 
 
 ord()   --- индекс символа
+
+тест
